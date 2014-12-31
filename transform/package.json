@@ -1,0 +1,14 @@
+{
+  "name": "transform",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "xiwang",
+  "license": "ISC",
+  "dependencies": {
+    "through": "^2.3.6"
+  }
+}
