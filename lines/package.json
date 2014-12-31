@@ -1,0 +1,15 @@
+{
+  "name": "lines",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiwang",
+  "license": "ISC",
+  "dependencies": {
+    "split": "^0.3.2",
+    "through": "^2.3.6"
+  }
+}
