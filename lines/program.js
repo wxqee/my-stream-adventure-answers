@@ -5,6 +5,7 @@ var split = require('split'),
 process.stdin
   .pipe(split())
   .pipe(through(function(line) {
-    this.queue(((flagOdd = !flagOdd) ? line.toUpperCase() : line) + '\n');
+    line = line.toString();
+    this.queue(((flagOdd = !flagOdd) ? line.toUpperCase() : line.toLowerCase()) + '\n');
   }))
   .pipe(process.stdout);
