@@ -1,0 +1,14 @@
+{
+  "name": "http_client",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "xiwang",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
