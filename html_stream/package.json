@@ -1,0 +1,16 @@
+{
+  "name": "html_stream",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "through": "^2.3.6",
+    "trumpet": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
