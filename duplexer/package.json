@@ -1,0 +1,14 @@
+{
+  "name": "duplexer-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "duplexer": "^0.1.1"
+  }
+}
