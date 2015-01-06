@@ -1,0 +1,16 @@
+{
+  "name": "combiner-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "xiwang",
+  "license": "ISC",
+  "dependencies": {
+    "split": "^0.3.2",
+    "stream-combiner": "^0.2.1",
+    "through": "^2.3.6"
+  }
+}
