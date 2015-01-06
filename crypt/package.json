@@ -1,0 +1,11 @@
+{
+  "name": "crypt-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "stream-adventure verify program.js"
+  },
+  "author": "xiwang",
+  "license": "ISC"
+}
